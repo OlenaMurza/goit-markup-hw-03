@@ -7,13 +7,50 @@ body {
     list-style-type: none;
 }
 
+.conteiner {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.list .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;}
+
+.img{
+    display: block;
+}    
+
+.project-img{
+    display: block;
+}
 /* top-line */
 
 .top-line {
-  
+  outline: 2px solid tomato;
+border: 1px solid #ECECEC;
+ 
         }
 
-.logo {
+.logo {outline: 2px solid tomato;
         font-family: 'Raleway', sans-serif;
         text-decoration: none;
         font-weight: 700;
@@ -21,22 +58,22 @@ body {
         line-height: 1.2;
         color: #000000; 
         letter-spacing: 0.03em;
+      
 }
 
 .logo_header {
     color: #2196F3;
     }
-
-   
-.list-item {
-    font-weight: 500;
+    
+.list-item {outline: 2px solid tomato;
+         font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
     color: #000000;
     letter-spacing: 0.02em;
     text-decoration: none;
+     }
 
-}
 .list-item:hover,
 .list-item:focus {
     color: #2196f3;
@@ -46,7 +83,7 @@ body {
     color: #2196f3;
 }
 
-.list-item-link1 {
+.list-item-link1 {outline: 2px solid tomato;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -63,7 +100,7 @@ body {
     color: #000000;
 }
 
-.contact-link1 {
+.contact-link1 {outline: 2px solid tomato;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -77,7 +114,7 @@ body {
 }
 
 /* header */
-.hero {
+.hero {outline: 2px solid tomato;
     background-color: #2F303A;
     color: #FFFFFF;  
     font-weight: 900;
@@ -85,9 +122,14 @@ body {
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    box-sizing: border-box;
+   margin-bottom: 30px;
+ 
+
 }
 
-.button {
+
+.button {outline: 2px solid tomato;
     cursor: pointer;
     background-color: #2196f3;
     font-weight: 700;
@@ -95,13 +137,17 @@ body {
     line-height: 1.8; 
     letter-spacing: 0.06em;
     font-family: inherit;
+    border-radius: 4px;
+    padding: 6px 22px;
+    width: 216px;
+    min-height: 50px;
 }
 
 .button:hover {
     background-color: #188ce8;
 }    
 
-.button .text {
+.button .text {outline: 2px solid tomato;
 color: #FFFFFF;
 font-size: 16px; 
 line-height: 1.8;
@@ -110,39 +156,42 @@ letter-spacing: 0.06em;
 
 /*section*/
 
-.features .work {
+.features .work {outline: 2px solid tomato;
     background-color: #F5F5F5;
 }
 
-.features-title {
+.features-title {outline: 2px solid tomato;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 10px;
 }
 
-.text {
+.text1 {outline: 2px solid tomato;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 94px;
 }
 
-.work-title-list {
+.work-title-list {outline: 2px solid tomato;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.work-title {
+.work-title {outline: 2px solid tomato;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 
-.work-img {
+.work-img {outline: 2px solid tomato;
 offset: drop shadow;
 radius: 4px;
 offset: 0px, 4px rgba(0, 0, 0, 0.25)
@@ -150,41 +199,44 @@ offset: 0px, 4px rgba(0, 0, 0, 0.25)
 
 /*team*/
 
-.team {
+.team {outline: 2px solid tomato;
 background-color: #F5F4FA;
 offset: Drop shadow;
 radius: 4px; 
 }
 
-.team-title-list-item {
+.team-title-list-item {outline: 2px solid tomato;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-title {
+.team-title {outline: 2px solid tomato;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 
-.team-item .team-img {
+.team-item .team-img {outline: 2px solid tomato;
         
     background: url(4853.jpg);
     border-radius: 0px;
+    margin-bottom: 30px;
 }
 
-.team-subject {
+.team-subject {outline: 2px solid tomato;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 10px;
 }
 
-.team-text {
+.team-text {outline: 2px solid tomato;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #757575;
@@ -192,19 +244,22 @@ radius: 4px;
 
 /*footer*/
 
-.contact {
+.contact {outline: 2px solid tomato;
     background-color: #2F303A;
+   
 }
 
-.logo_header2 {
+.logo_header2 {outline: 2px solid tomato;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-bottom: 20px;
+   
 }
 
-.addres {
+.addres {outline: 2px solid tomato;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -212,7 +267,7 @@ radius: 4px;
     color: #FFFFFF;
 }
 
-.link {
+.link {outline: 2px solid tomato;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -228,3 +283,101 @@ color: #2196F3;
 .link:focus {
     color: #FFFFFF;
 }
+
+
+
+/* Portfolio */
+  /* top-line */
+
+  .nav .nav-list {
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+      color: #212121;
+  }
+
+  .nav .nav-list:hover,
+  .nav .nav-list:focus {
+      color: #2196F3;
+  }
+
+  .nav .nav-list.current {
+      color: #2196F3;
+  }
+
+  .link-item1 {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      color: #757575;
+  }
+
+  /*portfolio*/
+
+  .button1 {
+      font-family: inherit;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.6;
+      letter-spacing: 0.03em;
+      color: #212121;
+      cursor: pointer;
+      border: none;
+  }
+
+  .button-item1 {
+      font-family: inherit;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.6;
+      letter-spacing: 0.03em;
+      color: #212121;
+      cursor: pointer;
+      border: none;
+  }
+
+  .button-item1:focus,
+  .button-item1:active {
+      background-color: #2196F3;
+      color: #FFFFFF;
+  }
+
+  /*project*/
+
+  .list-item2 {
+      box-sizing: border-box;
+      border: 1px solid #EEEEEE;
+  }
+
+  .project-img {
+      margin-block: 370px 400px;
+      margin-block: inherit;
+      background: url(2910404.jpg);
+    border: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+
+  }
+
+  .project-title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 2;
+      letter-spacing: 0.06em;
+      color: #212121;
+      margin-bottom: 4px;
+  }
+
+  .text {
+      font-size: 16px;
+      line-height: 1.9;
+      letter-spacing: 0.03em;
+      color: #757575;
+      margin-bottom: 20px;
+  }
+
+  /*footer*/
+
