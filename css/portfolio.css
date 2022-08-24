@@ -1,0 +1,157 @@
+  
+
+body {
+        font-family: 'Roboto', sans-serif;
+}
+h1 {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* top-line */
+
+.top-line {
+    background-color: #ECECEC;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo_header {
+    color: #2196F3;
+}
+
+.nav .nav-list {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.nav .nav-list:hover, 
+.nav .nav-list:focus {
+    color: #2196F3;
+}
+
+.nav .nav-list.current {
+    color: #2196F3;
+}
+
+.link-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #757575;
+}
+
+/*portfolio*/
+
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+    border: none;
+}
+
+.button-item {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+    border: none;
+   }
+
+.button-item:focus,
+.button-item:active {
+background-color: #2196F3;
+color: #FFFFFF;
+}
+
+/*project*/
+
+.list-item {
+    box-sizing: border-box; 
+    border: 1px solid #EEEEEE;
+}
+
+.project-img {
+    margin-block: 370px 400px;
+    margin-block: inherit;
+    background: url(2910404.jpg);
+
+}
+
+.project-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+.text {
+    font-size: 16px;
+    line-height:1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*footer*/
+.contact {
+    background-color: #2F303A;
+}
+
+.logo_header2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.addres {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    letter-spacing: 0.03em;    
+    color: #FFFFFF;
+}
+
+.contact-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1,7;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-link:hover {
+    color: #2196F3;
+}
+
+.contact-link:focus {
+    color: #FFFFFF;
+}
