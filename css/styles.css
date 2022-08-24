@@ -45,6 +45,7 @@ p {
 .top-line {
   outline: 2px solid tomato;
 border: 1px solid #ECECEC;
+width: 1200px;
  
         }
 
@@ -70,6 +71,7 @@ border: 1px solid #ECECEC;
     color: #000000;
     letter-spacing: 0.02em;
     text-decoration: none;
+    width: 1200px;
      }
 
 .list-item:hover,
@@ -88,6 +90,7 @@ border: 1px solid #ECECEC;
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
+    width: 1200px;
     }
 
 .list-item-link1:hover {
@@ -105,6 +108,7 @@ border: 1px solid #ECECEC;
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
+    width: 1200px;
 }
 
 .contact-link1:hover {
@@ -121,12 +125,9 @@ border: 1px solid #ECECEC;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     box-sizing: border-box;
-   margin-bottom: 30px;
-    margin-right: auto;
-        margin-left: auto;
  
-
-}
+        width: 1200px;
+ }
 
 
 .button {outline: 2px solid tomato;
@@ -148,7 +149,7 @@ border: 1px solid #ECECEC;
     background-color: #188ce8;
 }    
 
-.button .text {outline: 2px solid tomato;
+.button, .text {outline: 2px solid tomato;
 color: #FFFFFF;
 font-size: 16px; 
 line-height: 1.8;
@@ -157,9 +158,13 @@ letter-spacing: 0.06em;
 
 /*section*/
 
-.features .work {outline: 2px solid tomato;
+.features, .features-list, .work-item {outline: 2px solid tomato;
     background-color: #F5F5F5;
+    width: 1200px;
+       padding: 0;
+       margin: 0;
 }
+
 
 .features-title {outline: 2px solid tomato;
     font-weight: 700;
@@ -167,7 +172,8 @@ letter-spacing: 0.06em;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-bottom: 10px;
+   display: flex;
+    width: 1200px;
 }
 
 .text1 {outline: 2px solid tomato;
@@ -178,10 +184,12 @@ letter-spacing: 0.06em;
     margin-bottom: 94px;
 }
 
-.work-title-list {outline: 2px solid tomato;
+.work-title-list, .work {outline: 2px solid tomato;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding: 0;
+    width: 1200px;
 }
 .work-title {outline: 2px solid tomato;
     font-weight: 700;
@@ -190,6 +198,7 @@ letter-spacing: 0.06em;
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
+    width: 1200px;
 }
 
 .work-img {outline: 2px solid tomato;
@@ -204,12 +213,14 @@ offset: 0px, 4px rgba(0, 0, 0, 0.25)
 background-color: #F5F4FA;
 offset: Drop shadow;
 radius: 4px; 
+width: 1200px;
 }
 
-.team-title-list-item {outline: 2px solid tomato;
+.team-title-list-item, .team-title-list {outline: 2px solid tomato;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding: 0;
 }
 
 .team-title {outline: 2px solid tomato;
@@ -221,7 +232,7 @@ radius: 4px;
     margin-bottom: 50px;
 }
 
-.team-item .team-img {outline: 2px solid tomato;
+.team-item, .team-img {outline: 2px solid tomato;
         
     background: url(4853.jpg);
     border-radius: 0px;
@@ -247,6 +258,7 @@ radius: 4px;
 
 .contact {outline: 2px solid tomato;
     background-color: #2F303A;
+    width: 1200px;
    
 }
 
@@ -323,7 +335,13 @@ color: #2196F3;
   }
 
   /*portfolio*/
-
+  .header {
+    width: 1200px;
+  }
+.group {
+    padding: 0;
+    outline: 1px solid tomato;
+}
   .button1 {
       font-family: inherit;
       font-weight: 500;
@@ -333,9 +351,16 @@ color: #2196F3;
       color: #212121;
       cursor: pointer;
       border: none;
+      padding: 0;
+      width: 1200px;
+      margin: 0px;
+    outline: 1px solid tomato;
+
   }
 
   .button-item1 {
+   padding: 0;
+   margin: 0px;
       font-family: inherit;
       font-weight: 500;
       font-size: 16px;
@@ -357,6 +382,8 @@ color: #2196F3;
   .list-item2 {
       box-sizing: border-box;
       border: 1px solid #EEEEEE;
+      outline: 2px solid tomato;
+      width: 1200px;
   }
 
   .project-img {
