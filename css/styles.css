@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    width: 1600px;
     }
     
  ul {
@@ -35,26 +36,37 @@ p {
     display: block;
 }    
 
+.main {
+    text-align: center;
+}
 
-
+.header {
+    text-align: center;
+}
 /* Header  */
 
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   
     outline: 2px solid tomato;
     outline-offset: -2px;
 }
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .header-container, 
 .top-line, 
 .header-list  {
     display: flex;
     align-items: center;
-   }
+}
 
 
 /* top-line */
@@ -149,8 +161,6 @@ p {
     display: block;
     gap: 30px;  
     width: 696px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero-main {
@@ -159,8 +169,6 @@ p {
     box-sizing: border-box;
   
     text-align: center;
-    width: 1200px;
-      
 }
  
 .hero-text {
@@ -203,10 +211,23 @@ p {
     letter-spacing: 0.06em;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /*section*/
 .features-container {
     display: flex;
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;   
 }
@@ -254,7 +275,7 @@ p {
 /* work */
 
 .work-container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -262,7 +283,7 @@ p {
 .work-title-list, 
 .work {
     display: flex;
-    width: 1170px;
+    width: 1200px;
     padding: 0 15px;
 
     outline: 2px solid tomato;
@@ -272,7 +293,7 @@ p {
 }
 
 .work-title {
-    width: 1170px;
+    width: 1200px;
     margin-bottom: 50px;
     padding: 0 15px;
     
@@ -381,7 +402,7 @@ p {
 }
 
 .contact-container {
-    width: 1215px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -524,7 +545,7 @@ p {
 
   /*project*/
 .list-container {
-    width: 1215px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -549,6 +570,7 @@ p {
     margin-bottom: 20px;
     background: url(2910404.jpg);
     border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .project-title {
