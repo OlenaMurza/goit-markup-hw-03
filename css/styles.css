@@ -385,9 +385,11 @@ h3 {
 }
 
 /*footer*/
-
-.contact {
-     
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact {    
     
     outline: 2px solid tomato;
     background-color: #2F303A;
@@ -404,6 +406,7 @@ h3 {
         letter-spacing: 0.03em;    
         color: #2196F3;
         text-decoration: none;
+        margin-bottom: 20px;
 }
 .logo_header2 {
    
@@ -419,9 +422,12 @@ h3 {
 .contact-footer {
     display: inline;
     margin-bottom: 9px;
+    width: 231px;
 }
 
 .addres {
+   
+    
     outline: 2px solid tomato;
     font-style: normal;
     font-size: 14px;
@@ -430,6 +436,7 @@ h3 {
     color: #FFFFFF;
 }
 .link-footer {
+    width: 231px;
     margin: 0;
     padding: 0;
 }
