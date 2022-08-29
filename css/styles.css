@@ -59,7 +59,7 @@ body {
 /* logo */
 
 .logo { 
-    display: flex;
+    display: block;
     padding-top: 24px;
     padding-bottom: 25px;
     margin-right: 93px;
@@ -93,6 +93,8 @@ body {
 
 .list-item {
     display: block;
+    padding-top:32;
+    padding-bottom: 32;
     margin-left: auto;
     
     font-weight: 500;
@@ -118,7 +120,7 @@ body {
 }
 
 .list-item-link1 {
-    display: flex;
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
     margin-right: 30px;
@@ -136,7 +138,7 @@ body {
 }
 
 .list-item-link1:focus{
-    color: #000000;
+    color: #2196f3;
 }
 
 
@@ -236,7 +238,8 @@ body {
     margin-right: 0;
 }
 .features-item {
-   margin-right: 30px;
+    width: 270px;
+    margin-right: 30px;
    
 }
 
@@ -270,8 +273,7 @@ h3 {
   
 }
 
-.work-title-list, 
-.work {
+.work-title-list  {
     display: flex;
     padding-left: 0;
  
@@ -409,6 +411,7 @@ margin-right: 0;
 }
 
 .addres {
+    margin-top: 0;
     margin-bottom: 12px;
        
     font-style: normal;
@@ -417,16 +420,16 @@ margin-right: 0;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
 .link-footer {
   
     margin: 0;
     padding: 0;
 }
 
-.link:not(:last-child) {
-    margin-bottom: 0px;
+.link-footer-item:not(:last-child) {
+    margin-bottom: 9px;
 }
-
 .link {      
     font-style: normal;
     font-size: 14px;
@@ -452,7 +455,7 @@ margin-right: 0;
 /* Portfolio */
   /* top-line */
 .header-container {
-    gap: 50px;
+   
 }
   
 .list-item1:last-child {
@@ -502,7 +505,9 @@ margin-right: 0;
     display: flex;
     gap: 8px;
     justify-content: center;
-    border: none;
+    margin-bottom: 50px;
+
+    /* border: none;
     width: 1200px;   
     min-height: 40px;
     padding: 6px 22px;
@@ -515,13 +520,13 @@ margin-right: 0;
     line-height: 1.6;
     letter-spacing: 0.03em;
     color: #212121;
-    cursor: pointer;
+    cursor: pointer; */
   }
 
 .button-item1 {
-    min-height: 40px;
+  
     padding: 6px 22px;
-    margin-bottom: 34px;
+    /* margin-bottom: 34px; */
     border-radius: 4px;
       
     font-family: inherit;
@@ -549,18 +554,17 @@ margin-right: 0;
 }
 
 .list-item2 {
-    box-sizing: border-box;
-    border: 1px solid #EEEEEE;   
+  
     width: 370px;
 }
 
 .project-img {
-    margin-block: 370px 400px;
+    /* margin-block: 370px 400px;
     margin-block: inherit;
     margin-bottom: 20px;
     background: url(2910404.jpg);
     border: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE; */
 }
 .project-title {
   
@@ -568,6 +572,9 @@ margin-right: 0;
     padding-right: 24px;
     padding-left: 24px;
     padding-bottom: 20px;
+
+    border: 1px solid #EEEEEE;
+    border-top: 0;
 }
 
 .project-title-item {
