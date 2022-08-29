@@ -93,8 +93,8 @@ body {
 
 .list-item {
     display: block;
-    padding-top:32;
-    padding-bottom: 32;
+    padding-top:32px;
+    padding-bottom: 32px;
     margin-left: auto;
     
     font-weight: 500;
@@ -115,7 +115,7 @@ body {
 }
  
 /* email_tel */
-.list-item-link1:last-child{
+.list-item-link1:last-child {
     margin-right: 0;
 }
 
